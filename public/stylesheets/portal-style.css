@@ -1,0 +1,17 @@
+.thumbnail {
+    min-height: 425px;
+}
+.thumbnail img {
+    //max-height: 150px;
+}
+.thumbnail .description {
+    color: #7F7F7F;
+    min-height: 90px;
+}
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+.container-fluid {
+    background-color: yellow;
+}
