@@ -1,17 +1,87 @@
-.thumbnail {
-    min-height: 425px;
+.navbar-default.first-navbar {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 5px;
 }
-.thumbnail img {
-    //max-height: 150px;
+.navbar-default.second-navbar {
+    background-color: #405b63;
+    border-radius: 0;
 }
-.thumbnail .description {
-    color: #7F7F7F;
-    min-height: 90px;
+.container-fluid.second-navbar {
+    width: 1100px;
 }
-.price {
-    font-weight: bold;
-    font-size: 16px;
+.container {
+    width: 1100px;
+    min-height: 800px;
 }
-.container-fluid {
-    background-color: yellow;
+.navbar-default.second-navbar .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+.navbar-default.second-navbar .navbar-nav>li>a:hover {
+    background-color: #566f77;
+}
+.navbar-default.second-navbar .navbar-nav>li>a>img {
+    margin-top: -5px;
+}
+.navbar-nav>li>.dropdown-menu {
+    min-width: 20px;
+}
+
+/* Dashboard styling */
+.col-6.col-lg-4 {
+    width: 20%;
+}
+.notification-heading {
+    width:20%;
+    margin-left:15px;
+    margin-bottom: 10px;
+    color: #526A72;
+}
+.col-6.col-lg-4 .profile {
+    margin-left: 5px;
+}
+.col-6.col-lg-4 .profile .profile-pic {
+    margin-bottom: 15px;
+}
+.col-6.col-lg-4 .profile .profile-title {
+    margin-left:45px;
+    color: #526A72;
+}
+.col-6.col-lg-4 .profile .profile-edit>a {
+    margin-left: 45px;
+    margin-top: -8px;
+    font-size: small;
+    color: #929292;
+}
+.col-12.col-sm-6.col-lg-8 {
+    width: 80%;
+    color: #929292;
+    margin-bottom: 10px;
+}
+.col-12.col-sm-6.col-lg-8 .help-icon {
+    margin-top: -5px;
+}
+.col-12.col-sm-6.col-lg-8 .col-6.col-sm-4.traveller-pic {
+    width:7%;
+}
+.col-12.col-sm-6.col-lg-8 .col-6.col-sm-4.notification-text {
+    width: 30%;
+}
+.col-12.col-sm-6.col-lg-8 .col-6.col-sm-4.listing-details {
+    width: 55%;
+}
+.col-12.col-sm-6.col-lg-8 .col-6.col-sm-4.action-btns {
+    width: 8%;
+}
+
+.col-12.col-sm-6.col-lg-8 .col-6.col-sm-4.action-btns .btn-primary {
+    color: #fff;
+    background-color: #2E9FFF;
+    border-color: #2E9FFF;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
 }

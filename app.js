@@ -43,13 +43,16 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 app.use(function(req, res, next) {
   res.locals.login = req.isAuthenticated();
   res.locals.session = req.session;
   next();
 });
 
+// weather widget
+app.use("/icons", express.static(__dirname + "/public/icons/world-weather-online-set/PNGs_64x64/day"));
+
+// routing
 app.use('/user', userRoutes);
 app.use('/', routes);
 

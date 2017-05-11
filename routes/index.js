@@ -15,4 +15,8 @@ router.get('/', function(req, res, next) {
   });
 });
 
+router.get('make-a-booking/:id', function(req, res, next) {
+    var listingId = req.params.id;
+});
+
 module.exports = router;

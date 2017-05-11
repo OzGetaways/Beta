@@ -12,3 +12,32 @@
     font-weight: bold;
     font-size: 16px;
 }
+.navbar-default.first-navbar {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+.navbar-default.second-navbar {
+    background-color: #2E9FFF;
+    border-radius: 0;
+}
+.container-fluid.second-navbar {
+    width: 1100px;
+}
+.container {
+    width: 1100px;
+    min-height: 800px;
+}
+.navbar-default.second-navbar .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+.navbar-default.second-navbar .navbar-nav>li>a:hover {
+    background-color: #566f77;
+}
+.navbar-default.second-navbar .navbar-nav>li>a>img {
+    margin-top: -5px;
+}
+.navbar-nav>li>.dropdown-menu {
+    min-width: 50px;
+}
