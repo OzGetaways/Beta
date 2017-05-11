@@ -10,6 +10,10 @@ router.get('/profile', isLoggedIn, function(req, res, next) {
     res.render('user/profile', {layout: 'portal-layout'});
 });
 
+router.get('/notifications', isLoggedIn, function(req, res, next) {
+    res.render('user/notifications', {layout: 'portal-layout'});
+});
+
 router.get('/logout', isLoggedIn, function(req, res, next) {
     req.logout();
     res.redirect('/');

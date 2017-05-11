@@ -57,6 +57,7 @@
 .col-12.col-sm-6.col-lg-8 {
     width: 80%;
     color: #929292;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 .col-12.col-sm-6.col-lg-8 .help-icon {
